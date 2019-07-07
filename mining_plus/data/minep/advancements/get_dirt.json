@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Tip of the Mountain"
+        },
+        "description": {
+            "text": "Start your mining journey"
+        },
+        "icon": {
+            "item": "minecraft:dirt"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "m_get_dirt": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:dirt"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "minep:root"
+}

@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "I Should Make an Iron Farm"
+        },
+        "description": {
+            "text": "Get Iron"
+        },
+        "icon": {
+            "item": "minecraft:iron_ingot"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "m_get_iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:iron_ore"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "minep:get_coal"
+}

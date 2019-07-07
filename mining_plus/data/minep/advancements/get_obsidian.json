@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "\"Balra a második ajtó\""
+        },
+        "description": {
+            "text": "Get enough obsidian for a portal"
+        },
+        "icon": {
+            "item": "minecraft:obsidian"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "m_get_obsidian": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:obsidian",
+                        "count": {
+                            "min": 10
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "minep:pickaxe_diamond"
+}

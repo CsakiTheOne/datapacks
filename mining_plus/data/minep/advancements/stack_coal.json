@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "Stahanovist"
+        },
+        "description": {
+            "text": "*"
+        },
+        "icon": {
+            "item": "minecraft:coal_block"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "m_stack_coal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:coal_block",
+                        "count": 64
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "minep:get_coal"
+}

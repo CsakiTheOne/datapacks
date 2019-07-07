@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "I'm mining..."
+        },
+        "description": {
+            "text": "Mobs so icy wonder why they kill me, I'm just mining..."
+        },
+        "icon": {
+            "item": "minecraft:diamond_pickaxe"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "m_pickaxe_enchant": {
+            "trigger": "minecraft:enchanted_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:diamond_pickaxe"
+                }
+            }
+        }
+    },
+    "parent": "minep:pickaxe_diamond"
+}

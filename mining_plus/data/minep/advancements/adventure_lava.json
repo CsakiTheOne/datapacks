@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Bye bye inventory"
+        },
+        "description": {
+            "text": "keepInventory is cheating"
+        },
+        "icon": {
+            "item": "minecraft:lava_bucket"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "m_lava": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "minecraft:lava"
+            }
+        }
+    },
+    "parent": "minep:adventure_creeper"
+}

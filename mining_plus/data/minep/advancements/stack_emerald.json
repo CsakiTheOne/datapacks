@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "I am Rich"
+        },
+        "description": {
+            "text": "I could buy an entire village"
+        },
+        "icon": {
+            "item": "minecraft:emerald_block"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "m_stack_emerald": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:emerald_block",
+                        "count": 64
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "minep:get_emerald"
+}

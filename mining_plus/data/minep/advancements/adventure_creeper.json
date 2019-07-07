@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Perfectly cut scream compilation"
+        },
+        "description": {
+            "text": "Sssssss..."
+        },
+        "icon": {
+            "item": "minecraft:creeper_head"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "m_adventure_creeper": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "type": "minecraft:creeper"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "minep:get_dirt"
+}

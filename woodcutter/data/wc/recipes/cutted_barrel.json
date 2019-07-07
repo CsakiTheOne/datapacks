@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "wc:log"
+    },
+    "result": "minecraft:barrel",
+    "count": 1
+}

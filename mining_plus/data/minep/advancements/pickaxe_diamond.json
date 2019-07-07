@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "I Will Lose This In Lava"
+        },
+        "description": {
+            "text": "Craft an actually good pickaxe"
+        },
+        "icon": {
+            "item": "minecraft:diamond_pickaxe"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "m_pick_diamond": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond_pickaxe"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "minep:get_iron"
+}

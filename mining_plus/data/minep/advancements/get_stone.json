@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Don't Dig Straight Down!"
+        },
+        "description": {
+            "text": "Start your mining journey"
+        },
+        "icon": {
+            "item": "minecraft:cobblestone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "m_get_stone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cobblestone"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "minep:get_dirt"
+}

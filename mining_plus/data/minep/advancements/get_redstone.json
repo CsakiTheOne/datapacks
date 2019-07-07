@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "ENERGIA!"
+        },
+        "description": {
+            "text": "Get redstone"
+        },
+        "icon": {
+            "item": "minecraft:redstone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "m_get_redstone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:redstone"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "minep:get_iron"
+}

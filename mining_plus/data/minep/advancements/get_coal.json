@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Getting Fuel"
+        },
+        "description": {
+            "text": "Mine coal"
+        },
+        "icon": {
+            "item": "minecraft:coal"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "m_get_coal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:coal"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "minep:get_stone"
+}

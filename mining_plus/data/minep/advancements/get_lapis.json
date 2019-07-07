@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "I Mined Magic"
+        },
+        "description": {
+            "text": "Get lapis"
+        },
+        "icon": {
+            "item": "minecraft:lapis_lazuli"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "m_get_lapis": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:lapis_lazuli"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "minep:get_iron"
+}

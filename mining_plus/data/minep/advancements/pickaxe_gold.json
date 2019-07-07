@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "What Is This S**t For?"
+        },
+        "description": {
+            "text": "Make a stupid Decision"
+        },
+        "icon": {
+            "item": "minecraft:golden_pickaxe"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "m_pick_gold": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:golden_pickaxe"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "minep:stack_gold"
+}
