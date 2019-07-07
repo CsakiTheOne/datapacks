@@ -1,9 +1,25 @@
 *
 {
     color: #EEE;
+    box-sizing: border-box;
 }
 
 body
 {
     background: #282828;
+}
+
+.card
+{
+    display: inline-block;
+    margin: 8px;
+    padding: 4px;
+    width: 98%;
+    height: 12%;
+    background: #383842;
+}
+
+.card > *
+{
+    margin: 4px;
 }
