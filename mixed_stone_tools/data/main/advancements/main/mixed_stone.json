@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone_hoe"
+        },
+        "title": {
+            "text": "Mixed stone tools",
+            "color": "white"
+        },
+        "description": {
+            "text": "Craft stone tools with any type of stone.",
+            "color": "green",
+            "italic": true
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "frame": "goal"
+    },
+    "parent": "main:main/collection",
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

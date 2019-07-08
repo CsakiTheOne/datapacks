@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:anvil"
+        },
+        "title": {
+            "text": "Anvil magnet",
+            "color": "white"
+        },
+        "description": {
+            "text": "You can pull items by holding an anvil in your hand. Also works with item frames.",
+            "color": "green",
+            "italic": true
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "frame": "goal"
+    },
+    "parent": "main:main/collection",
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

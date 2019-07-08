@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:fletching_table"
+        },
+        "title": {
+            "text": "Fletching table functionality",
+            "color": "white"
+        },
+        "description": {
+            "text": "Throw 2 sticks on a fletching table to make an arrow. Also works with hoppers.",
+            "color": "green",
+            "italic": true
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "frame": "goal"
+    },
+    "parent": "main:main/collection",
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

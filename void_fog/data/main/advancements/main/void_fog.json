@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bedrock"
+        },
+        "title": {
+            "text": "Void fog",
+            "color": "white"
+        },
+        "description": {
+            "text": "Brigs back the fog particles under the ground.",
+            "color": "green",
+            "italic": true
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "frame": "goal"
+    },
+    "parent": "main:main/collection",
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

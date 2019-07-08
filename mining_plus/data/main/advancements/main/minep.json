@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_pickaxe"
+        },
+        "title": {
+            "text": "Mining plus",
+            "color": "white"
+        },
+        "description": {
+            "text": "Adds some mining related advancements.",
+            "color": "green",
+            "italic": true
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "frame": "goal"
+    },
+    "parent": "main:main/collection",
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

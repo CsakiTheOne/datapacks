@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stonecutter"
+        },
+        "title": {
+            "text": "Woodcutter",
+            "color": "white"
+        },
+        "description": {
+            "text": "Use the stonecutter with any type of log or a crafting table.",
+            "color": "green",
+            "italic": true
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "frame": "goal"
+    },
+    "parent": "main:main/collection",
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

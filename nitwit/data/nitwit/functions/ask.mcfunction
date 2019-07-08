@@ -1,1 +1,1 @@
-tellraw @s "Hmm..."
+tellraw @s "<Nitwit> Bruh"

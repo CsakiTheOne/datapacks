@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chest"
+        },
+        "title": {
+            "text": "Csáki's collection",
+            "bold": true,
+            "color": "gold"
+        },
+        "description": {
+            "text": "Datapacks by CsakiTheOne",
+            "color": "white",
+            "italic": true
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "frame": "challenge"
+    },
+    "parent": "main:main/root",
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
