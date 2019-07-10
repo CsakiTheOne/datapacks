@@ -1,0 +1,39 @@
+{
+    "display": {
+        "title": {
+            "text": "8 tera"
+        },
+        "description": {
+            "text": "Nagy storage mellé sok crafting table is kell. Kell egy stack crafting meg láda."
+        },
+        "icon": {
+            "item": "minecraft:chest"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "cc_8tera": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:crafting_table",
+                        "count": {
+                            "min": 64
+                        }
+                    },
+                    {
+                        "item": "minecraft:chest",
+                        "count": {
+                            "min": 64
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "cc:root"
+}

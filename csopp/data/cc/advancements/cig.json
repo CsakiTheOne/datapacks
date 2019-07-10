@@ -1,0 +1,46 @@
+{
+    "display": {
+        "title": {
+            "text": "Cigazolvány"
+        },
+        "description": {
+            "text": "Sötét bőr, lopkod, dühös lesz, ha bámulod."
+        },
+        "icon": {
+            "item": "minecraft:black_concrete"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "cc_cig_kill": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:enderman"
+                }
+            }
+        },
+        "cc_cig_get": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:ender_pearl"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "cc_cig_kill"
+        ],
+        [
+            "cc_cig_get"
+        ]
+    ],
+    "parent": "cc:root"
+}

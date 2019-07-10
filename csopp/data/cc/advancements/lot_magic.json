@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Túl sokat varázsolsz Gyula"
+        },
+        "description": {
+            "text": "32 XP LVL"
+        },
+        "icon": {
+            "item": "minecraft:experience_bottle"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "cc_lot_magic": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "cc:csaki_bot"
+}

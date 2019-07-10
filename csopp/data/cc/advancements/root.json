@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Csöpp-Craft"
+        },
+        "icon": {
+            "item": "minecraft:ghast_tear"
+        },
+        "description": {
+            "text": "Idióta kihívások az osztálynak."
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "cc_root": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

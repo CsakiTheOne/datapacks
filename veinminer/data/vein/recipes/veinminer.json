@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:flint"
+    },
+    "result": "minecraft:bat_spawn_egg",
+    "count": 1
+}

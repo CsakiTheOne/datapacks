@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "Sómen"
+        },
+        "description": {
+            "text": "Készíts valami durva italt cukorral."
+        },
+        "icon": {
+            "item": "minecraft:sugar"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "cc_salt": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:potion",
+                        "potion": "minecraft:swiftness"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "cc:root"
+}

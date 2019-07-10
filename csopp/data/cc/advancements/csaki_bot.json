@@ -1,0 +1,38 @@
+{
+    "display": {
+        "title": {
+            "text": "Csáki botja"
+        },
+        "description": {
+            "text": "Craft-old le a kedvenc fegyverét. Knockback 2 stick."
+        },
+        "icon": {
+            "item": "minecraft:stick"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "cc_csaki_bot": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:stick",
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:knockback",
+                                "levels": {
+                                    "min": 1
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "cc:root"
+}

@@ -1,0 +1,1 @@
+give @s flint{display:{Name:"\"Veinminer\"",Lore:["{\"text\":\"Pickaxe mod\"}"]}}
