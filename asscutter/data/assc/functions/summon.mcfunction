@@ -1,0 +1,2 @@
+summon shulker ~ ~-2 ~ {Invulnerable:1,NoAI:1,Silent:1,Tags:["asscutter"],Passengers:[{id:bat,Invulnerable:1,NoAI:1,Silent:1,Tags:["asscutter"],Passengers:[{id:horse,Invulnerable:1,NoAI:1,Silent:1,SaddleItem:{id:saddle, Count:1},Tags:["asscutter"]}]}]}
+effect give @e[tag=asscutter] invisibility 999 0 true
