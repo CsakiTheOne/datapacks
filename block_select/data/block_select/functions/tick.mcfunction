@@ -2,3 +2,7 @@ execute as @e[nbt={Item:{tag:{display:{Name:'{"text":"block select"}'}}}}] at @s
 kill @e[nbt={Item:{tag:{display:{Name:'{"text":"block select"}'}}}}]
 
 execute as @e[tag=block_select] at @s if block ~ ~ ~ air run function block_select:deselect
+
+# setblock
+execute as @a[nbt={SelectedItem:{tag:{display:{Name:'{"text":"block select"}'}}}}] at @s unless block ~ ~ ~ air run function block_select:setblock
+execute as @a[nbt={SelectedItem:{tag:{display:{Name:'{"text":"block select"}'}}}}] at @s unless block ~ ~ ~ air run setblock ~ ~ ~ air
