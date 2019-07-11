@@ -6,7 +6,7 @@ clear @a[nbt={Inventory:[{id:"minecraft:flint"}]}] bat_spawn_egg
 ### IN ACTION
 
 # summon armor stands
-execute as @a[nbt={Inventory:[{tag:{display:{Name:"\"Veinminer\"",Lore:["{\"text\":\"Pickaxe mod\"}"]}}}]}] at @s run function vein:summon
+execute as @a[nbt={Inventory:[{tag:{Tags:["veinminer"]}}]}] at @s run function vein:summon
 
 # reset scores
 scoreboard players reset @a vein_coal
