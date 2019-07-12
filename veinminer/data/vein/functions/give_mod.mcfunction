@@ -1,1 +1,0 @@
-give @s flint{display:{Name:"{\"text\":\"Veinminer\"}",Lore:["{\"text\":\"Pickaxe mod\"}"]},HideFlags:1,Enchantments:[{id:"minecraft:efficiency",lvl:1}],Tags:["veinminer"]}
