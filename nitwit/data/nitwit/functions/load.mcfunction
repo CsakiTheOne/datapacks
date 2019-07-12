@@ -1,0 +1,1 @@
+scoreboard objectives add nitwit_trust dummy "Nitwit trust"
